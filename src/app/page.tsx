@@ -11,17 +11,17 @@ export default function Home() {
   return (
     <div className={lightMode ? "dark" : ""}>
       <main className=" bg-gray-900 min-h-screen dark:bg-gray-100">
-        <div className="flex justify-between items-center p-10 dark:bg-gray-200/40 bg-gray-800">
+        <div className="flex justify-between items-center lg:p-10 p-5 dark:bg-gray-200/40 bg-gray-800">
         {/* flex justify-between items-center gap-5 */}
           <div>
             <h1 className="lg:text-3xl md:text-2xl text-xl text-gray-200 dark:text-gray-900 font-burtons">DevelopedByEsti</h1>
           </div>
-          <div className="flex gap-1 lg:gap-3 justify-center items-center">
+          <div className="flex gap-1/2 lg:gap-3 justify-center items-center">
             <div>
-            <FaMoon onClick={()=>setLightMode(!lightMode)} className=" text-gray-200 dark:text-gray-800 hover:text-gray-400 dark:hover:text-gray-400 transition-all duration-300 text-xl lg:text-2xl cursor-pointer"/>
+            <FaMoon onClick={()=>setLightMode(!lightMode)} className=" text-gray-200 dark:text-gray-800 hover:text-gray-400 dark:hover:text-gray-400 transition-all duration-300 text-lg lg:text-2xl cursor-pointer"/>
             </div>
           <div>
-            <a href="#" className=" text-orange-200 dark:text-orange-700 hover:underline font-extrabold text-xl px-2 py-5 font-burtons">Sign Up</a>
+            <a href="#" className=" text-orange-200 dark:text-orange-700 hover:underline font-extrabold text-lg px-2 py-5 font-burtons">Sign Up</a>
           </div>
           </div>
         </div>
@@ -30,8 +30,8 @@ export default function Home() {
             <Image src={img}  alt="Profile image" layout="fit" objectFit="contain"/>
           </div>
 
-          <h2 className="text-gray-200 dark:text-gray-950 text-4xl font-extrabold">Emilia Matina</h2>
-          <h3 className="text-orange-300 dark:text-orange-900 text-xl mt-2">Software Developer</h3>
+          <h2 className="text-gray-200 dark:text-gray-950 text-3xl lg:text-4xl font-extrabold">Emilia Matina</h2>
+          <h3 className="text-orange-300 dark:text-orange-900 lg:text-xl text-lg mt-2">Software Developer</h3>
           <p className=" text-gray-200 dark:text-gray-900 my-5 leading-6 max-w-xs mx-auto">This is the beginning of the portfolio
           and this is it in the text of the marker and the words of the painterbanter rolling from the plain texts
           This is the beginning of the portfolio
@@ -42,11 +42,10 @@ export default function Home() {
             <FaTwitter className="text-green-200 dark:text-gray-950 text-xl"/>
             <FaLinkedin className="text-green-200 dark:text-gray-950 text-xl"/>
           </div>
-          
         </div>
 
-        <div className=" w-96 mx-auto p-10 mt-20 lg:w-full">
-          <h3 className="text-gray-100 dark:text-gray-950 font-extrabold text-3xl mb-10 text-center">Our Plans</h3>
+        <div className=" w-96 mx-auto p-10 lg:mt-20 mt-10 lg:w-full">
+          <h3 className="text-gray-100 dark:text-gray-950 font-extrabold text-2xl lg:text-3xl mb-10 text-center">Our Plans</h3>
           <div className="lg:flex lg:gap-10 lg:justify-between">
             <div className=" bg-gray-300 dark:bg-gray-300 shadow-md p-10 rounded-md mb-10">
               <h2 className="bg-gradient-to-tr from-orange-700/30 dark:text-gray-300 dark:from-orange-700 p-2 font-extrabold">Plan-A</h2>
@@ -57,7 +56,7 @@ export default function Home() {
             </div>
 
             <div className=" bg-gray-300 dark:bg-gray-300 shadow-md p-10 rounded-md mb-10">
-              <h2 className="bg-gradient-to-tr from-green-700/30 dark:text-gray-300 dark:from-green-700 p-2 font-extrabold">Plan-B</h2>
+              <h2 className="bg-gradient-to-tr from-orange-700/30 dark:text-gray-300 dark:from-orange-700 p-2 font-extrabold">Plan-B</h2>
               <p className="text-center mt-10 dark:text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta atque, hic vel voluptates esse veniam voluptas cumque, corrupti dolores perferendis saepe ullam iure! Ratione eum veniam est natus iusto accusamus repellendus quasi dolore! Deleniti aliquid sunt odio quod sint.</p>
               <div className="mx-auto text-center">
                 <button className="bg-gradient-to-r from-orange-900 to-gray-800 text-white py-4 px-10 rounded-md mt-10 hover:from-green-600 hover:to-gray-800 transition-all ease-in duration-1000">Buy</button>
@@ -74,14 +73,14 @@ export default function Home() {
           </div>        
         </div>
 
-        <div className="w-90 mx-auto mt-20 p-20 dark:bg-green-50 bg-gray-800">
-          <h2 className="text-gray-100 dark:text-gray-950 font-extrabold text-3xl mb-10 text-center">Our Values</h2>
+        <div className="lg:w-90 w-80 mx-auto py-10 px-10 :lg:mt-20 lg:p-20 dark:bg-green-50 bg-gray-800">
+          <h2 className="text-gray-100 dark:text-gray-950 font-extrabold text-2xl lg:text-3xl mb-10 text-center">Our Values</h2>
           <div className="flex flex-col lg:flex-row lg:flex-wrap gap-5">
-            <p className="basis-1/3 flex-1 text-green-300 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  py-10 px-40">Excellence</p>
-            <p className="basis-1/3 flex-1 text-green-300 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  py-10 px-40">Passionate</p>
-            <p className="basis-1/3 flex-1 text-green-300 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center py-10 px-40 font-bold">Flexible</p>
-            <p className="basis-1/3 flex-1 text-green-300 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  py-10 px-40">Honest</p>
-            <p className="basis-1/3 flex-1 text-green-300 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  py-10 px-40">Fast</p>
+            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Excellence</p>
+            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Passionate</p>
+            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center lg:py-10 lg:px-40 px-10 py-5">Flexible</p>
+            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Honest</p>
+            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Fast</p>
           </div>
         </div>
         
