@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" w-80 mx-auto p-10 lg:mt-20 mt-10 lg:w-full">
+        <div className=" w-80 mx-auto p-5 lg:mt-20 mt-10 lg:w-full">
           <h3 className="text-gray-100 dark:text-gray-950 font-extrabold text-2xl lg:text-3xl mb-10 text-center">Our Plans</h3>
           <div className="lg:flex lg:gap-10 lg:justify-between">
             <div className=" bg-gray-300 dark:bg-gray-300 shadow-md py-10 px-5 lg:p-10 rounded-md mb-10">
@@ -73,7 +73,7 @@ export default function Home() {
           </div>        
         </div>
 
-        <div className="px-7">
+        <div>
           <h2 className="text-gray-100 dark:text-gray-950 font-extrabold text-2xl lg:text-3xl mb-10 text-center">Our Values</h2>
           <div className="flex flex-col lg:flex-row lg:flex-wrap gap-5 p-10 lg:mt-20 lg:p-20 dark:bg-green-50 bg-gray-800">
             <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Excellence</p>
