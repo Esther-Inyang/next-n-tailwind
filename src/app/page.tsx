@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex justify-between items-center lg:p-10 p-5 dark:bg-gray-200/40 bg-gray-800">
         {/* flex justify-between items-center gap-5 */}
           <div>
-            <h1 className="lg:text-3xl md:text-2xl text-xl text-gray-200 dark:text-gray-900 font-burtons">DevelopedByEsti</h1>
+            <h1 className="lg:text-3xl md:text-2xl text-xl text-gray-200 dark:text-gray-900 font-burtons">DevelopedByDevEsti</h1>
           </div>
           <div className="flex gap-1/2 lg:gap-3 justify-center items-center">
             <div>
@@ -44,38 +44,38 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" w-96 mx-auto p-10 lg:mt-20 mt-10 lg:w-full">
+        <div className=" w-80 mx-auto p-10 lg:mt-20 mt-10 lg:w-full">
           <h3 className="text-gray-100 dark:text-gray-950 font-extrabold text-2xl lg:text-3xl mb-10 text-center">Our Plans</h3>
           <div className="lg:flex lg:gap-10 lg:justify-between">
-            <div className=" bg-gray-300 dark:bg-gray-300 shadow-md p-10 rounded-md mb-10">
+            <div className=" bg-gray-300 dark:bg-gray-300 shadow-md py-10 px-5 lg:p-10 rounded-md mb-10">
               <h2 className="bg-gradient-to-tr from-orange-700/30 dark:text-gray-300 dark:from-orange-700 p-2 font-extrabold">Plan-A</h2>
-              <p className="text-center mt-10 dark:text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta atque, hic vel voluptates esse veniam voluptas cumque, corrupti dolores perferendis saepe ullam iure! Ratione eum veniam est natus iusto accusamus repellendus quasi dolore! Deleniti aliquid sunt odio quod sint.</p>
+              <p className="text-center my-5 lg:mt-10 dark:text-gray-900  text-sm lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta atque, hic vel voluptates esse veniam voluptas cumque, corrupti dolores perferendis saepe ullam iure! Ratione eum veniam est natus iusto accusamus repellendus quasi dolore! Deleniti aliquid sunt odio quod sint.</p>
               <div className="mx-auto text-center">
-                <button className="bg-gradient-to-r from-orange-900 to-gray-800 text-white py-4 px-10 rounded-md mt-10 hover:from-green-600 hover:to-gray-800 transition-all ease-in duration-1000">Buy</button>
+                <button className="bg-gradient-to-r from-orange-900 to-gray-800 text-white py-4 px-10 rounded-md lg:mt-10 hover:from-green-600 hover:to-gray-800 transition-all ease-in duration-1000">Buy</button>
               </div>
             </div>
 
-            <div className=" bg-gray-300 dark:bg-gray-300 shadow-md p-10 rounded-md mb-10">
+            <div className=" bg-gray-300 dark:bg-gray-300 shadow-md py-10 px-5 lg:p-10 rounded-md mb-10">
               <h2 className="bg-gradient-to-tr from-orange-700/30 dark:text-gray-300 dark:from-orange-700 p-2 font-extrabold">Plan-B</h2>
-              <p className="text-center mt-10 dark:text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta atque, hic vel voluptates esse veniam voluptas cumque, corrupti dolores perferendis saepe ullam iure! Ratione eum veniam est natus iusto accusamus repellendus quasi dolore! Deleniti aliquid sunt odio quod sint.</p>
+              <p className="text-center my-5 lg:mt-10 dark:text-gray-900 text-sm lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta atque, hic vel voluptates esse veniam voluptas cumque, corrupti dolores perferendis saepe ullam iure! Ratione eum veniam est natus iusto accusamus repellendus quasi dolore! Deleniti aliquid sunt odio quod sint.</p>
               <div className="mx-auto text-center">
-                <button className="bg-gradient-to-r from-orange-900 to-gray-800 text-white py-4 px-10 rounded-md mt-10 hover:from-green-600 hover:to-gray-800 transition-all ease-in duration-1000">Buy</button>
+                <button className="bg-gradient-to-r from-orange-900 to-gray-800 text-white py-4 px-10 rounded-md lg:mt-10 hover:from-green-600 hover:to-gray-800 transition-all ease-in duration-1000">Buy</button>
               </div>
             </div>
 
-            <div className=" bg-gray-300 dark:bg-gray-300 shadow-md p-10 rounded-md mb-10 ">
+            <div className=" bg-gray-300 dark:bg-gray-300 shadow-md py-10 px-5 lg:p-10 rounded-md mb-10 ">
               <h2 className="bg-gradient-to-tr from-orange-700/30 dark:text-gray-300 dark:from-orange-700 p-2 font-extrabold">Plan-C</h2>
-              <p className="text-center mt-10 dark:text-gray-900 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta atque, hic vel voluptates esse veniam voluptas cumque, corrupti dolores perferendis saepe ullam iure! Ratione eum veniam est natus iusto accusamus repellendus quasi dolore! Deleniti aliquid sunt odio quod sint.</p>
+              <p className="text-center my-5 lg:mt-10 dark:text-gray-900 text-sm lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus soluta atque, hic vel voluptates esse veniam voluptas cumque, corrupti dolores perferendis saepe ullam iure! Ratione eum veniam est natus iusto accusamus repellendus quasi dolore! Deleniti aliquid sunt odio quod sint.</p>
               <div className="mx-auto text-center">
-                <button className="bg-gradient-to-r from-orange-900 to-gray-800 text-white py-4 px-10 rounded-md mt-10 hover:from-green-600 hover:to-gray-800 transition-all ease-in duration-1000">Buy</button>
+                <button className="bg-gradient-to-r from-orange-900 to-gray-800 text-white py-4 px-10 rounded-md lg:mt-10 hover:from-green-600 hover:to-gray-800 transition-all ease-in duration-1000">Buy</button>
               </div>
             </div>
           </div>        
         </div>
 
-        <div className="lg:w-90 w-80 mx-auto py-10 px-10 :lg:mt-20 lg:p-20 dark:bg-green-50 bg-gray-800">
+        <div className="px-7">
           <h2 className="text-gray-100 dark:text-gray-950 font-extrabold text-2xl lg:text-3xl mb-10 text-center">Our Values</h2>
-          <div className="flex flex-col lg:flex-row lg:flex-wrap gap-5">
+          <div className="flex flex-col lg:flex-row lg:flex-wrap gap-5 p-10 lg:mt-20 lg:p-20 dark:bg-green-50 bg-gray-800">
             <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Excellence</p>
             <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Passionate</p>
             <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center lg:py-10 lg:px-40 px-10 py-5">Flexible</p>
