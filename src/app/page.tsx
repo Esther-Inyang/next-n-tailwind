@@ -75,18 +75,18 @@ export default function Home() {
 
         <div>
           <h2 className="text-gray-100 dark:text-gray-950 font-extrabold text-2xl lg:text-3xl mb-10 text-center">Our Values</h2>
-          <div className="flex flex-col lg:flex-row lg:flex-wrap gap-5 p-10 lg:mt-20 lg:p-20 dark:bg-green-50 bg-gray-800">
-            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Excellence</p>
-            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Passionate</p>
-            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center lg:py-10 lg:px-40 px-10 py-5">Flexible</p>
-            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Honest</p>
-            <p className="basis-1/3 flex-1 text-orange-200 dark:text-orange-900 border-2 border-gray-700 dark:border-none dark:shadow-gray-400 shadow-sm rounded-lg text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Fast</p>
+          <div className="flex flex-col lg:flex-row lg:flex-wrap gap-5 p-10 lg:mt-20 lg:p-20 dark:bg-gray-200 bg-gray-800">
+            <p className="basis-1/3 flex-1 text-lg text-orange-200 dark:text-orange-900 bg-gray-900 dark:bg-gray-100 dark:shadow-gray-400 shadow-sm rounded-lg lg:text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Excellence</p>
+            <p className="basis-1/3 flex-1 text-lg text-orange-200 dark:text-orange-900 bg-gray-900 dark:bg-gray-100  dark:shadow-gray-400 shadow-sm rounded-lg lg:text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Passionate</p>
+            <p className="basis-1/3 flex-1 text-lg text-orange-200 dark:text-orange-900 bg-gray-900 dark:bg-gray-100  dark:shadow-gray-400 shadow-sm rounded-lg lg:text-xl text-center lg:py-10 lg:px-40 px-10 py-5">Flexible</p>
+            <p className="basis-1/3 flex-1 text-lg text-orange-200 dark:text-orange-900 bg-gray-900 dark:bg-gray-100  dark:shadow-gray-400 shadow-sm rounded-lg lg:text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Honest</p>
+            <p className="basis-1/3 flex-1 text-lg text-orange-200 dark:text-orange-900 bg-gray-900 dark:bg-gray-100  dark:shadow-gray-400 shadow-sm rounded-lg lg:text-xl text-center  lg:py-10 lg:px-40 px-10 py-5">Fast</p>
           </div>
         </div>
         
         <div className="bg-gray-950 py-3 flex items-center justify-center gap-1">
-          <FaCopyright className="font-light text-center text-gray-100"/>
-          <span className="font-light text-center text-gray-100">footer copyrite</span>
+          <FaCopyright className="font-light text-center text-green-200 dark:text-gray-100"/>
+          <span className="font-light text-center text-green-200  dark:text-gray-100">footer copyrite</span>
         </div>
       </main>
     </div>
